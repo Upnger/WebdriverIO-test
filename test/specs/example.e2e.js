@@ -1,5 +1,5 @@
 describe('topNavCarMenu', () => {
-    it('should login with valid credentials', async () => {
+    it('should have texts based on language of document', async () => {
         await browser.url(`/`);
 
         await expect($('#nav\\:topNavCarMenu')).toBeExisting();
